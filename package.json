@@ -2,11 +2,11 @@
   "name": "unified-hospital-diseases",
   "version": "1.0.0",
   "description": "",
-  "main": "index.mjs",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "nodemon ./src/index.mjs",
-    "start": "nodemon ./src/index.mjs"
+    "start:dev": "nodemon ./src/app.js",
+    "start": "nodemon ./src/app.js"
   },
   "author": "",
   "license": "ISC",
@@ -24,6 +24,5 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
-  },
-  "type": "module"
+  }
 }
